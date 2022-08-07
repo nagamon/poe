@@ -1,0 +1,107 @@
+.header
+{
+  height: 55px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.left-section
+{
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+
+.middle-section
+{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  max-width: 300px;
+  
+}
+.search-bar
+{
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  border: 1px solid grey;
+  height: 20px;
+  width: 100%;
+  outline: none;
+  background-color: lightgrey;
+  border-radius: 6px;
+}
+
+.right-section
+{
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  color: #fff;
+}
+
+body
+{
+  margin: 0;
+  background-image: url(images/general/wpbg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: darkslategray; 
+  /* padding-left: 175px; */
+  /* left: 0; */
+  /* z-index: 200; */
+}
+
+.mainbody
+{
+  /* margin-left: 175px; */
+  font-size: 32px;
+  z-index: 250;
+  color: black;
+}
+
+.sidebar{
+  /* padding-top: 55px; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* top: 55px; */
+  background-color: aqua;
+  width: 72px;
+  z-index: 200;
+}
+
+.sidebar-link {
+  background-color: bisque;
+  height: 75px;
+  width: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-right: 4px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+
+}
